@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3DA0135429A12BA000F646AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0135329A12BA000F646AD /* main.swift */; };
+		3DA0135B29A12C1800F646AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0135A29A12C1800F646AD /* User.swift */; };
+		3DA0135D29A12C3200F646AD /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0135C29A12C3200F646AD /* DataBase.swift */; };
+		3DA0135F29A135B800F646AD /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0135E29A135B800F646AD /* Code.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3DA0135029A12BA000F646AD /* StructEnum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StructEnum; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA0135329A12BA000F646AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DA0135A29A12C1800F646AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3DA0135C29A12C3200F646AD /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		3DA0135E29A135B800F646AD /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3DA0135329A12BA000F646AD /* main.swift */,
+				3DA0135A29A12C1800F646AD /* User.swift */,
+				3DA0135C29A12C3200F646AD /* DataBase.swift */,
+				3DA0135E29A135B800F646AD /* Code.swift */,
 			);
 			path = StructEnum;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA0135F29A135B800F646AD /* Code.swift in Sources */,
+				3DA0135B29A12C1800F646AD /* User.swift in Sources */,
+				3DA0135D29A12C3200F646AD /* DataBase.swift in Sources */,
 				3DA0135429A12BA000F646AD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
